@@ -1,7 +1,7 @@
-package repositories;
+package todoapp.repositories;
 
-import config.Database;
-import entities.TodoList;
+import todoapp.config.Database;
+import todoapp.entities.TodoList;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

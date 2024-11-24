@@ -1,10 +1,12 @@
-import config.Database;
-import repositories.TodoListRepository;
-import repositories.TodoListRepositoryDbImpl;
-import services.TodoListService;
-import services.TodoListServiceImpl;
-import views.TodoListTerminalViewImpl;
-import views.TodoListView;
+package todoapp;
+
+import todoapp.config.Database;
+import todoapp.repositories.TodoListRepository;
+import todoapp.repositories.TodoListRepositoryDbImpl;
+import todoapp.services.TodoListService;
+import todoapp.services.TodoListServiceImpl;
+import todoapp.views.TodoListTerminalViewImpl;
+import todoapp.views.TodoListView;
 
 public class Main {
     public static void main(String[] args) {
