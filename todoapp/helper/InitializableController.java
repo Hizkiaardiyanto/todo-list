@@ -1,5 +1,5 @@
 package todoapp.helper;
 
-public interface initializableController {
+public interface InitializableController {
     void initData(Object[] params);
 }
